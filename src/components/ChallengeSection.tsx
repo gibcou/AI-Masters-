@@ -7,12 +7,12 @@ const ChallengeSection = () => {
     {
       name: "Shahe K.",
       image: "https://coursiv.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F1.4e7ecbed.png&w=64&q=75",
-      text: "I have been searching for AI lessons to help me reach my career objectives. I decided to invest in Coursiv, and I have no regrets about that choice. Coursiv offers prompts and a step-by-step teaching approach that motivates and rewards the learning experience."
+      text: "I have been searching for AI lessons to help me reach my career objectives. I decided to invest in AI Masters, and I have no regrets about that choice. AI Masters offers prompts and a step-by-step teaching approach that motivates and rewards the learning experience."
     },
     {
       name: "Regina Brown",
       image: "https://coursiv.io/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F2.812d6860.png&w=64&q=75",
-      text: "As someone knowledgeable in AI, I sought to enhance my understanding of using AI for income sources. Coursiv simplified this journey with its clear and easy follow courses. I gained a lot of knowledge, and Coursiv brought attention to several key points that I had previously missed."
+      text: "As someone knowledgeable in AI, I sought to enhance my understanding of using AI for income sources. AI Masters simplified this journey with its clear and easy follow courses. I gained a lot of knowledge, and AI Masters brought attention to several key points that I had previously missed."
     },
     {
       name: "Corey Rein",
@@ -27,7 +27,7 @@ const ChallengeSection = () => {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-            See how Coursiv changes lives
+            See how AI Masters changes lives
           </h2>
         </div>
 
@@ -55,7 +55,7 @@ const ChallengeSection = () => {
         {/* Challenge section */}
         <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8 md:p-12 text-center">
           <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-            Learn new AI every day in our 28-day Challenge
+            Join thousands who've transformed their careers with AI Masters
           </h3>
           <p className="text-lg text-gray-600 mb-8 max-w-2xl mx-auto">
             Don't let your goals overwhelm you. Learn AI skills tailored to your needs and everyday tasks.
@@ -184,7 +184,10 @@ const ChallengeSection = () => {
             </div>
           </div>
 
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg">
+          <button 
+            onClick={() => window.location.href = '/quiz'}
+            className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg"
+          >
             Join Our Challenge
           </button>
         </div>

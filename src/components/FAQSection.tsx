@@ -7,19 +7,19 @@ const FAQSection = () => {
 
   const faqs = [
     {
-      question: "What is Coursiv?",
-      answer: "Coursiv is an AI learning platform that helps you master artificial intelligence skills to increase your income and improve your life. We offer practical, actionable courses designed for learners of all levels."
+      question: "What makes AI Masters different from other AI courses?",
+      answer: "AI Masters is an AI learning platform that helps you master artificial intelligence skills to increase your income and improve your life. We offer practical, actionable courses designed for learners of all levels."
     },
     {
-      question: "How to download and use Coursiv?",
+      question: "How to download and use AI Masters?",
       answer: "You can download Coursiv from both the App Store and Google Play Market. Simply search for 'Coursiv' and install the app. Once installed, create your account and start learning immediately with our interactive courses."
     },
     {
-      question: "How to log in into Coursiv?",
+      question: "How to log in into AI Masters?",
       answer: "After downloading the app, tap 'Log In' on the welcome screen. Enter your email and password, or use social login options like Google or Apple. If you're new, tap 'Sign Up' to create your account first."
     },
     {
-      question: "How to cancel Coursiv subscription?",
+      question: "How to cancel AI Masters subscription?",
       answer: "You can cancel your subscription anytime through your account settings in the app, or through your App Store/Google Play account settings. Your access will continue until the end of your current billing period."
     }
   ]
@@ -34,7 +34,7 @@ const FAQSection = () => {
               Frequently asked questions
             </h2>
             <p className="text-lg text-gray-600">
-              Find answers to common questions about Coursiv
+              Find answers to common questions about AI Masters
             </p>
           </div>
 

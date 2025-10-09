@@ -1,18 +1,29 @@
 'use client'
 
 import React, { useState } from 'react'
+import { useAuth } from '@/hooks/useAuth'
+import AuthModal from './AuthModal'
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
+  const [isAuthModalOpen, setIsAuthModalOpen] = useState(false)
+  const { user, logout, loading } = useAuth()
 
   const handleLogin = () => {
-    // Simulate login functionality
-    alert('Login functionality would redirect to login page')
+    setIsAuthModalOpen(true)
+  }
+
+  const handleLogout = async () => {
+    try {
+      await logout()
+    } catch (error) {
+      console.error('Logout error:', error)
+    }
   }
 
   const handleGetStarted = () => {
-    // Simulate get started functionality
-    alert('Get Started functionality would redirect to registration/onboarding')
+    // Redirect to quiz page
+    window.location.href = '/quiz'
   }
 
   const scrollToSection = (sectionId: string) => {
@@ -30,31 +41,40 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <div className="text-2xl font-bold text-blue-600 cursor-pointer" onClick={() => scrollToSection('hero')}>
-              Coursiv
+              AI Masters
             </div>
           </div>
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <button onClick={() => scrollToSection('features')} className="text-gray-700 hover:text-blue-600 transition-colors">
-              Features
-            </button>
-            <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-blue-600 transition-colors">
-              About
-            </button>
-            <button onClick={() => scrollToSection('pricing')} className="text-gray-700 hover:text-blue-600 transition-colors">
-              Pricing
-            </button>
-            <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-blue-600 transition-colors">
-              Contact
-            </button>
+            <a href="/" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+              Home
+            </a>
+            <a href="/blog" className="text-gray-700 hover:text-blue-600 transition-colors font-medium">
+              Blog
+            </a>
           </nav>
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <button onClick={handleLogin} className="text-gray-700 hover:text-blue-600 transition-colors">
-              Log In
-            </button>
+            {user ? (
+              <div className="flex items-center space-x-4">
+                <span className="text-gray-700">
+                  Welcome, {user.displayName || user.email}
+                </span>
+                <button 
+                  onClick={handleLogout} 
+                  disabled={loading}
+                  className="text-gray-700 hover:text-blue-600 transition-colors disabled:opacity-50"
+                >
+                  {loading ? 'Logging out...' : 'Log Out'}
+                </button>
+              </div>
+            ) : (
+              <button onClick={handleLogin} className="text-gray-700 hover:text-blue-600 transition-colors">
+                Log In
+              </button>
+            )}
             <button onClick={handleGetStarted} className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
               Get Started
             </button>
@@ -75,22 +95,31 @@ const Header = () => {
         {isMenuOpen && (
           <div className="md:hidden py-4 border-t">
             <div className="flex flex-col space-y-4">
-              <button onClick={() => scrollToSection('features')} className="text-gray-700 hover:text-blue-600 transition-colors text-left">
-                Features
-              </button>
-              <button onClick={() => scrollToSection('about')} className="text-gray-700 hover:text-blue-600 transition-colors text-left">
-                About
-              </button>
-              <button onClick={() => scrollToSection('pricing')} className="text-gray-700 hover:text-blue-600 transition-colors text-left">
-                Pricing
-              </button>
-              <button onClick={() => scrollToSection('contact')} className="text-gray-700 hover:text-blue-600 transition-colors text-left">
-                Contact
-              </button>
+              <a href="/" className="text-gray-700 hover:text-blue-600 transition-colors text-left font-medium">
+                Home
+              </a>
+              <a href="/blog" className="text-gray-700 hover:text-blue-600 transition-colors text-left font-medium">
+                Blog
+              </a>
               <div className="flex flex-col space-y-2 pt-4 border-t">
-                <button onClick={handleLogin} className="text-gray-700 hover:text-blue-600 transition-colors text-left">
-                  Log In
-                </button>
+                {user ? (
+                  <div className="flex flex-col space-y-2">
+                    <span className="text-gray-700 text-sm">
+                      Welcome, {user.displayName || user.email}
+                    </span>
+                    <button 
+                      onClick={handleLogout} 
+                      disabled={loading}
+                      className="text-gray-700 hover:text-blue-600 transition-colors text-left disabled:opacity-50"
+                    >
+                      {loading ? 'Logging out...' : 'Log Out'}
+                    </button>
+                  </div>
+                ) : (
+                  <button onClick={handleLogin} className="text-gray-700 hover:text-blue-600 transition-colors text-left">
+                    Log In
+                  </button>
+                )}
                 <button onClick={handleGetStarted} className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
                   Get Started
                 </button>
@@ -99,6 +128,12 @@ const Header = () => {
           </div>
         )}
       </div>
+
+      {/* Auth Modal */}
+      <AuthModal 
+        isOpen={isAuthModalOpen} 
+        onClose={() => setIsAuthModalOpen(false)} 
+      />
     </header>
   )
 }

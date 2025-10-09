@@ -12,7 +12,7 @@ const testimonials = [
   {
     id: 2,
     name: "orange_s",
-    text: "Coursiv is an excellent platform for learning AI. It provides clear instructions that greatly assist students in understanding the topic. So far, it's the best course I've enrolled in.",
+    text: "AI Masters is an excellent platform for learning AI. It provides clear instructions that greatly assist students in understanding the topic. So far, it's the best course I've enrolled in.",
     rating: 5
   },
   {
@@ -24,7 +24,7 @@ const testimonials = [
   {
     id: 4,
     name: "Carla_fr",
-    text: "Learning how AI can enhance my work efficiency through Coursiv has been a big advantage! The step-by-step guidance makes it easy to learn about AI.",
+    text: "Learning how AI can enhance my work efficiency through AI Masters has been a big advantage! The step-by-step guidance makes it easy to learn about AI.",
     rating: 5
   },
   {

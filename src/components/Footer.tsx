@@ -12,12 +12,15 @@ const Footer = () => {
             {/* Left content */}
             <div>
               <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6">
-                Start your AI journey with Coursiv today!
+                Start your AI journey with AI Masters today!
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Learn today, take control of your future, and grow your income with new digital skills and AI
               </p>
-              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg">
+              <button 
+                onClick={() => window.location.href = '/quiz'}
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg"
+              >
                 Get Started Now
               </button>
             </div>
@@ -43,7 +46,7 @@ const Footer = () => {
             {/* Company info */}
             <div className="md:col-span-2">
               <div className="text-2xl font-bold text-blue-400 mb-4">
-                Coursiv
+                AI Masters
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
                 Master AI skills to increase your income and improve your life. 

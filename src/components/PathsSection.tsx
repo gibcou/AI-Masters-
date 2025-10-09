@@ -152,7 +152,10 @@ const PathsSection = () => {
 
         {/* CTA section */}
         <div className="text-center mt-16">
-          <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg">
+          <button 
+            onClick={() => window.location.href = '/quiz'}
+            className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg"
+          >
             Start Your AI Journey
           </button>
           <p className="text-gray-600 mt-4">

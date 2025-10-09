@@ -1,0 +1,728 @@
+import React from 'react'
+import CourseLayout from '@/components/CourseLayout'
+
+const AICareerCourse = () => {
+  const modules = [
+    {
+      id: 1,
+      title: "AI in the Modern Workplace",
+      description: "Understanding how AI is transforming careers and industries",
+      completed: false,
+      lessons: [
+        {
+          id: 1,
+          title: "The AI Revolution in Professional Work",
+          duration: "18 min",
+          type: "video" as const,
+          completed: false,
+          videoUrl: "https://www.youtube.com/embed/40riCqvRoMs",
+          content: `
+            <h2>How AI is Reshaping Careers</h2>
+            <p>Artificial Intelligence isn't just changing technology—it's fundamentally transforming how we work, what skills are valued, and what career paths are possible.</p>
+
+            <h3>The Current State of AI in Work</h3>
+            <ul>
+              <li><strong>40% of working hours</strong> could be automated or augmented by AI</li>
+              <li><strong>85 million jobs</strong> may be displaced by 2025, but <strong>97 million new jobs</strong> may emerge</li>
+              <li><strong>Top companies</strong> are already using AI for hiring, performance evaluation, and task automation</li>
+            </ul>
+
+            <h3>Industries Being Transformed</h3>
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>High-Impact Sectors:</h4>
+              <ul>
+                <li><strong>Healthcare:</strong> AI diagnostics, drug discovery, personalized treatment</li>
+                <li><strong>Finance:</strong> Algorithmic trading, fraud detection, robo-advisors</li>
+                <li><strong>Marketing:</strong> Personalization, content creation, customer insights</li>
+                <li><strong>Legal:</strong> Document review, contract analysis, legal research</li>
+                <li><strong>Education:</strong> Personalized learning, automated grading, content creation</li>
+                <li><strong>Creative Industries:</strong> AI-generated content, design assistance, music composition</li>
+              </ul>
+            </div>
+
+            <h3>The AI Career Advantage</h3>
+            <p>Professionals who embrace AI are seeing:</p>
+            <ul>
+              <li><strong>20-40% productivity gains</strong> in knowledge work</li>
+              <li><strong>Higher salaries</strong> - AI-skilled workers earn 15-25% more</li>
+              <li><strong>Better job security</strong> - AI-augmented roles are harder to automate</li>
+              <li><strong>New opportunities</strong> - Entirely new job categories emerging</li>
+            </ul>
+
+            <div style="background: #fef3c7; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>⚡ Key Insight</h4>
+              <p>The goal isn't to compete with AI, but to collaborate with it. The most successful professionals will be those who can effectively work alongside AI systems.</p>
+            </div>
+          `
+        },
+        {
+          id: 2,
+          title: "AI Skills Assessment & Gap Analysis",
+          duration: "22 min",
+          type: "practice" as const,
+          completed: false,
+          content: `
+            <h2>Evaluating Your AI Readiness</h2>
+            <p>Before diving into AI tools and techniques, it's crucial to understand where you stand and what skills you need to develop.</p>
+
+            <h3>The AI Skills Framework</h3>
+            <ol>
+              <li><strong>AI Literacy</strong> - Understanding what AI can and cannot do</li>
+              <li><strong>Tool Proficiency</strong> - Hands-on experience with AI applications</li>
+              <li><strong>Prompt Engineering</strong> - Effectively communicating with AI systems</li>
+              <li><strong>Data Thinking</strong> - Understanding how data drives AI decisions</li>
+              <li><strong>Ethical AI</strong> - Responsible AI usage and bias awareness</li>
+            </ol>
+
+            <h3>Skills Assessment Exercise</h3>
+            <div style="background: #f0fdf4; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <p><strong>Rate yourself (1-5) on each skill area:</strong></p>
+              
+              <h4>Technical Skills:</h4>
+              <ul>
+                <li>Using ChatGPT/Claude for work tasks ___/5</li>
+                <li>Creating effective prompts ___/5</li>
+                <li>Using AI writing tools (Jasper, Copy.ai) ___/5</li>
+                <li>AI image generation (Midjourney, DALL-E) ___/5</li>
+                <li>AI code assistance (GitHub Copilot, Cursor) ___/5</li>
+                <li>Data analysis with AI tools ___/5</li>
+              </ul>
+
+              <h4>Strategic Skills:</h4>
+              <ul>
+                <li>Identifying AI opportunities in your role ___/5</li>
+                <li>Understanding AI limitations and risks ___/5</li>
+                <li>Evaluating AI tool ROI ___/5</li>
+                <li>Leading AI adoption in teams ___/5</li>
+              </ul>
+            </div>
+
+            <h3>Industry-Specific AI Skills</h3>
+            <p>Different roles require different AI competencies:</p>
+            
+            <h4>Marketing Professionals:</h4>
+            <ul>
+              <li>AI content creation and optimization</li>
+              <li>Predictive analytics for customer behavior</li>
+              <li>Automated A/B testing and personalization</li>
+            </ul>
+
+            <h4>Sales Teams:</h4>
+            <ul>
+              <li>AI-powered lead scoring and qualification</li>
+              <li>Automated email sequences and follow-ups</li>
+              <li>Conversation intelligence and coaching</li>
+            </ul>
+
+            <h4>Analysts & Consultants:</h4>
+            <ul>
+              <li>Automated data processing and visualization</li>
+              <li>AI-assisted research and insights generation</li>
+              <li>Predictive modeling and forecasting</li>
+            </ul>
+
+            <h3>Creating Your Learning Plan</h3>
+            <p>Based on your assessment, prioritize skills that will have the biggest impact on your career goals.</p>
+          `
+        },
+        {
+          id: 3,
+          title: "Building Your AI-Enhanced Professional Brand",
+          duration: "20 min",
+          type: "reading" as const,
+          completed: false,
+          content: `
+            <h2>Positioning Yourself as an AI-Savvy Professional</h2>
+            <p>In today's competitive job market, demonstrating AI competency can set you apart from other candidates and position you for leadership roles.</p>
+
+            <h3>The AI Professional Brand Framework</h3>
+            <ul>
+              <li><strong>AI Advocate</strong> - Champion AI adoption in your organization</li>
+              <li><strong>AI Implementer</strong> - Successfully deploy AI solutions</li>
+              <li><strong>AI Educator</strong> - Help others understand and use AI</li>
+              <li><strong>AI Innovator</strong> - Find creative applications for AI in your field</li>
+            </ul>
+
+            <h3>Building Credibility</h3>
+            <ol>
+              <li><strong>Document Your AI Journey</strong>
+                 <ul>
+                   <li>Share before/after results of AI implementations</li>
+                   <li>Write case studies of successful AI projects</li>
+                   <li>Track productivity gains and time savings</li>
+                 </ul>
+              </li>
+              <li><strong>Develop Thought Leadership</strong>
+                 <ul>
+                   <li>Write LinkedIn articles about AI in your industry</li>
+                   <li>Speak at conferences about AI applications</li>
+                   <li>Create content showing AI best practices</li>
+                 </ul>
+              </li>
+              <li><strong>Build a Portfolio</strong>
+                 <ul>
+                   <li>Showcase AI-enhanced work samples</li>
+                   <li>Demonstrate ROI from AI implementations</li>
+                   <li>Include testimonials from colleagues and clients</li>
+                 </ul>
+              </li>
+            </ol>
+
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>💼 Professional Positioning Tips</h4>
+              <ul>
+                <li><strong>LinkedIn Headline:</strong> Include "AI-Enhanced" or "AI-Powered" in your role description</li>
+                <li><strong>Resume Keywords:</strong> Add AI tools and methodologies you've used</li>
+                <li><strong>Interview Stories:</strong> Prepare examples of how AI improved your work</li>
+                <li><strong>Networking:</strong> Join AI professional groups and communities</li>
+              </ul>
+            </div>
+
+            <h3>Certifications & Credentials</h3>
+            <p>Consider pursuing these AI-related certifications:</p>
+            <ul>
+              <li><strong>Google AI for Everyone</strong> - Foundational AI knowledge</li>
+              <li><strong>Microsoft AI Fundamentals</strong> - Azure AI services</li>
+              <li><strong>IBM AI Engineering</strong> - Practical AI implementation</li>
+              <li><strong>Coursera AI Specializations</strong> - Industry-specific AI skills</li>
+            </ul>
+
+            <h3>Measuring Your Brand Impact</h3>
+            <p>Track these metrics to gauge your AI brand building:</p>
+            <ul>
+              <li><strong>LinkedIn engagement</strong> on AI-related posts</li>
+              <li><strong>Speaking opportunities</strong> at industry events</li>
+              <li><strong>Job inquiries</strong> mentioning your AI expertise</li>
+              <li><strong>Internal recognition</strong> for AI initiatives</li>
+            </ul>
+          `
+        }
+      ]
+    },
+    {
+      id: 2,
+      title: "AI Tools Mastery",
+      description: "Hands-on training with essential AI tools for professionals",
+      completed: false,
+      lessons: [
+        {
+          id: 4,
+          title: "Advanced ChatGPT & Claude Techniques",
+          duration: "35 min",
+          type: "video" as const,
+          completed: false,
+          videoUrl: "https://www.youtube.com/embed/VznoKyh6AXs",
+          content: `
+            <h2>Mastering Conversational AI for Work</h2>
+            <p>ChatGPT and Claude are powerful tools, but most professionals only scratch the surface. Learn advanced techniques to maximize their potential.</p>
+
+            <h3>Advanced Prompting Strategies</h3>
+            <ol>
+              <li><strong>Role-Based Prompting</strong>
+                 <p><em>Example:</em> "Act as a senior marketing strategist with 10 years of B2B experience. Analyze this campaign performance data and provide actionable recommendations."</p>
+              </li>
+              <li><strong>Chain-of-Thought Prompting</strong>
+                 <p><em>Example:</em> "Let's work through this step by step: 1) First, identify the key metrics 2) Then analyze trends 3) Finally, recommend actions"</p>
+              </li>
+              <li><strong>Few-Shot Learning</strong>
+                 <p>Provide 2-3 examples of the desired output format before asking for your specific task.</p>
+              </li>
+            </ol>
+
+            <h3>Professional Use Cases</h3>
+            <div style="background: #f0fdf4; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>Email & Communication:</h4>
+              <ul>
+                <li>Draft professional emails with appropriate tone</li>
+                <li>Summarize long email threads</li>
+                <li>Create meeting agendas and follow-up notes</li>
+                <li>Translate communications for global teams</li>
+              </ul>
+
+              <h4>Analysis & Research:</h4>
+              <ul>
+                <li>Analyze data and identify patterns</li>
+                <li>Research industry trends and competitors</li>
+                <li>Create SWOT analyses and strategic frameworks</li>
+                <li>Generate hypotheses for testing</li>
+              </ul>
+
+              <h4>Content Creation:</h4>
+              <ul>
+                <li>Write reports, proposals, and presentations</li>
+                <li>Create social media content calendars</li>
+                <li>Develop training materials and documentation</li>
+                <li>Generate creative campaign ideas</li>
+              </ul>
+            </div>
+
+            <h3>Prompt Templates for Common Tasks</h3>
+            <p><strong>Meeting Summary Template:</strong></p>
+            <blockquote>
+              "Please summarize this meeting transcript in the following format:
+              - Key Decisions Made
+              - Action Items (with owners and deadlines)
+              - Open Questions
+              - Next Steps
+              
+              [Insert transcript here]"
+            </blockquote>
+
+            <p><strong>Competitive Analysis Template:</strong></p>
+            <blockquote>
+              "Analyze [Competitor Name] based on the following criteria:
+              - Market positioning
+              - Key strengths and weaknesses
+              - Pricing strategy
+              - Target audience
+              - Differentiation factors
+              
+              Provide specific examples and actionable insights for how we can compete more effectively."
+            </blockquote>
+
+            <h3>Quality Control & Fact-Checking</h3>
+            <p>Always verify AI-generated content:</p>
+            <ul>
+              <li><strong>Cross-reference facts</strong> with authoritative sources</li>
+              <li><strong>Review for bias</strong> and ensure balanced perspectives</li>
+              <li><strong>Check calculations</strong> and data interpretations</li>
+              <li><strong>Ensure brand voice</strong> consistency in communications</li>
+            </ul>
+          `
+        },
+        {
+          id: 5,
+          title: "AI-Powered Productivity Suite",
+          duration: "40 min",
+          type: "practice" as const,
+          completed: false,
+          content: `
+            <h2>Building Your AI Productivity Stack</h2>
+            <p>Create a comprehensive toolkit of AI applications that work together to supercharge your productivity.</p>
+
+            <h3>Essential AI Tools by Category</h3>
+            
+            <h4>Writing & Content Creation:</h4>
+            <ul>
+              <li><strong>Grammarly:</strong> AI-powered writing assistant</li>
+              <li><strong>Jasper:</strong> Marketing copy and long-form content</li>
+              <li><strong>Copy.ai:</strong> Quick copy generation and brainstorming</li>
+              <li><strong>Notion AI:</strong> Integrated writing assistance in your workspace</li>
+            </ul>
+
+            <h4>Data Analysis & Visualization:</h4>
+            <ul>
+              <li><strong>Tableau with Einstein:</strong> AI-powered data insights</li>
+              <li><strong>Microsoft Power BI:</strong> Natural language queries</li>
+              <li><strong>DataRobot:</strong> Automated machine learning</li>
+              <li><strong>Hex:</strong> Collaborative data science platform</li>
+            </ul>
+
+            <h4>Design & Visual Content:</h4>
+            <ul>
+              <li><strong>Canva AI:</strong> Automated design suggestions</li>
+              <li><strong>Midjourney:</strong> AI image generation</li>
+              <li><strong>Figma AI:</strong> Design assistance and prototyping</li>
+              <li><strong>Loom AI:</strong> Automated video summaries</li>
+            </ul>
+
+            <h3>Workflow Integration Exercise</h3>
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <p><strong>Design your AI-enhanced daily workflow:</strong></p>
+              
+              <h4>Morning Routine (30 minutes):</h4>
+              <ol>
+                <li>Use AI to summarize overnight emails and Slack messages</li>
+                <li>Generate daily priority list based on calendar and tasks</li>
+                <li>Create meeting prep notes using AI research</li>
+              </ol>
+
+              <h4>Core Work Time (4-6 hours):</h4>
+              <ol>
+                <li>Use AI writing tools for first drafts</li>
+                <li>Leverage AI for data analysis and insights</li>
+                <li>Generate creative ideas with AI brainstorming</li>
+              </ol>
+
+              <h4>End-of-Day Review (15 minutes):</h4>
+              <ol>
+                <li>AI-generated summary of accomplishments</li>
+                <li>Automated task prioritization for tomorrow</li>
+                <li>AI-assisted reflection and learning notes</li>
+              </ol>
+            </div>
+
+            <h3>ROI Measurement Framework</h3>
+            <p>Track the impact of your AI tools:</p>
+            
+            <h4>Time Savings Metrics:</h4>
+            <ul>
+              <li><strong>Writing tasks:</strong> Compare time before/after AI assistance</li>
+              <li><strong>Research:</strong> Measure reduction in information gathering time</li>
+              <li><strong>Analysis:</strong> Track speed of insight generation</li>
+            </ul>
+
+            <h4>Quality Improvements:</h4>
+            <ul>
+              <li><strong>Error reduction:</strong> Fewer mistakes in documents and communications</li>
+              <li><strong>Consistency:</strong> More uniform quality across outputs</li>
+              <li><strong>Creativity:</strong> Increased number of ideas generated</li>
+            </ul>
+
+            <h3>Tool Selection Criteria</h3>
+            <p>When evaluating new AI tools, consider:</p>
+            <ol>
+              <li><strong>Integration:</strong> Does it work with your existing tools?</li>
+              <li><strong>Learning Curve:</strong> How quickly can you become proficient?</li>
+              <li><strong>Cost-Benefit:</strong> Does the productivity gain justify the expense?</li>
+              <li><strong>Security:</strong> Does it meet your organization's data requirements?</li>
+              <li><strong>Scalability:</strong> Can it grow with your needs?</li>
+            </ol>
+          `
+        },
+        {
+          id: 6,
+          title: "AI Ethics & Responsible Usage",
+          duration: "25 min",
+          type: "reading" as const,
+          completed: false,
+          content: `
+            <h2>Responsible AI in Professional Settings</h2>
+            <p>As AI becomes more prevalent in the workplace, understanding ethical considerations and responsible usage becomes crucial for career success and organizational trust.</p>
+
+            <h3>Key Ethical Considerations</h3>
+            <ul>
+              <li><strong>Bias & Fairness:</strong> AI systems can perpetuate or amplify existing biases</li>
+              <li><strong>Privacy:</strong> Protecting sensitive data when using AI tools</li>
+              <li><strong>Transparency:</strong> Being clear about when and how AI is used</li>
+              <li><strong>Accountability:</strong> Taking responsibility for AI-generated outputs</li>
+              <li><strong>Human Oversight:</strong> Maintaining human judgment in critical decisions</li>
+            </ul>
+
+            <h3>Common AI Bias Scenarios</h3>
+            <div style="background: #fef3c7; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>⚠️ Watch Out For:</h4>
+              <ul>
+                <li><strong>Hiring:</strong> AI resume screening that discriminates against certain groups</li>
+                <li><strong>Performance Reviews:</strong> AI analysis that reflects historical biases</li>
+                <li><strong>Customer Service:</strong> Chatbots that provide different service levels based on perceived demographics</li>
+                <li><strong>Content Creation:</strong> AI-generated content that lacks diverse perspectives</li>
+              </ul>
+            </div>
+
+            <h3>Best Practices for Responsible AI Use</h3>
+            <ol>
+              <li><strong>Data Protection</strong>
+                 <ul>
+                   <li>Never input confidential or personal data into public AI tools</li>
+                   <li>Use enterprise versions with proper data handling agreements</li>
+                   <li>Understand data retention and usage policies</li>
+                 </ul>
+              </li>
+              <li><strong>Output Verification</strong>
+                 <ul>
+                   <li>Always fact-check AI-generated information</li>
+                   <li>Review for potential bias or inappropriate content</li>
+                   <li>Ensure outputs align with company values and policies</li>
+                 </ul>
+              </li>
+              <li><strong>Transparency</strong>
+                 <ul>
+                   <li>Disclose when AI was used in content creation</li>
+                   <li>Be clear about AI's role in decision-making processes</li>
+                   <li>Educate colleagues about AI capabilities and limitations</li>
+                 </ul>
+              </li>
+            </ol>
+
+            <h3>Legal & Compliance Considerations</h3>
+            <p>Stay informed about evolving AI regulations:</p>
+            <ul>
+              <li><strong>GDPR:</strong> European data protection requirements for AI systems</li>
+              <li><strong>AI Act (EU):</strong> Comprehensive AI regulation framework</li>
+              <li><strong>Industry Standards:</strong> Sector-specific AI guidelines (healthcare, finance, etc.)</li>
+              <li><strong>Company Policies:</strong> Internal AI usage guidelines and restrictions</li>
+            </ul>
+
+            <h3>Building AI Governance</h3>
+            <p>Help your organization develop responsible AI practices:</p>
+            <ul>
+              <li><strong>AI Usage Policies:</strong> Clear guidelines for appropriate AI use</li>
+              <li><strong>Training Programs:</strong> Educate teams on responsible AI practices</li>
+              <li><strong>Review Processes:</strong> Regular audits of AI implementations</li>
+              <li><strong>Incident Response:</strong> Procedures for addressing AI-related issues</li>
+            </ul>
+
+            <div style="background: #f0fdf4; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>✅ Responsible AI Checklist</h4>
+              <p>Before using AI for any professional task, ask:</p>
+              <ul>
+                <li>Is this use case appropriate for AI?</li>
+                <li>Have I protected sensitive information?</li>
+                <li>Will I verify the AI's output?</li>
+                <li>Am I being transparent about AI usage?</li>
+                <li>Does this align with company policies?</li>
+                <li>Could this create bias or unfairness?</li>
+              </ul>
+            </div>
+          `
+        }
+      ]
+    },
+    {
+      id: 3,
+      title: "Career Transformation",
+      description: "Leveraging AI for career advancement and new opportunities",
+      completed: false,
+      lessons: [
+        {
+          id: 7,
+          title: "AI-Enhanced Job Search & Networking",
+          duration: "30 min",
+          type: "video" as const,
+          completed: false,
+          videoUrl: "https://www.youtube.com/embed/gGfFGFBiTl8",
+          content: `
+            <h2>Revolutionizing Your Job Search with AI</h2>
+            <p>AI can transform every aspect of your job search, from finding opportunities to acing interviews.</p>
+
+            <h3>AI-Powered Job Discovery</h3>
+            <ul>
+              <li><strong>LinkedIn AI:</strong> Personalized job recommendations and skill insights</li>
+              <li><strong>Indeed AI:</strong> Smart job matching based on your profile</li>
+              <li><strong>ZipRecruiter AI:</strong> Automated application optimization</li>
+              <li><strong>Custom AI Alerts:</strong> Set up AI to monitor job boards and company pages</li>
+            </ul>
+
+            <h3>Resume & Cover Letter Optimization</h3>
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>AI Resume Enhancement Process:</h4>
+              <ol>
+                <li><strong>ATS Optimization:</strong> Use AI to ensure your resume passes applicant tracking systems</li>
+                <li><strong>Keyword Analysis:</strong> AI identifies important keywords from job descriptions</li>
+                <li><strong>Impact Quantification:</strong> AI helps articulate achievements with metrics</li>
+                <li><strong>Tailored Versions:</strong> Create role-specific resumes efficiently</li>
+              </ol>
+            </div>
+
+            <h3>AI-Enhanced Networking</h3>
+            <p>Leverage AI to build meaningful professional relationships:</p>
+            <ul>
+              <li><strong>LinkedIn Outreach:</strong> AI-generated personalized connection requests</li>
+              <li><strong>Event Preparation:</strong> AI research on attendees and conversation starters</li>
+              <li><strong>Follow-up Messages:</strong> Thoughtful, personalized follow-ups at scale</li>
+              <li><strong>Content Strategy:</strong> AI-curated posts to build thought leadership</li>
+            </ul>
+
+            <h3>Interview Preparation with AI</h3>
+            <ol>
+              <li><strong>Company Research:</strong> AI-powered deep dives into company culture, challenges, and opportunities</li>
+              <li><strong>Question Preparation:</strong> AI generates likely interview questions based on role and company</li>
+              <li><strong>Answer Optimization:</strong> Practice responses using AI feedback</li>
+              <li><strong>Mock Interviews:</strong> AI-powered interview simulation tools</li>
+            </ol>
+
+            <h3>Salary Negotiation Intelligence</h3>
+            <p>Use AI to strengthen your negotiation position:</p>
+            <ul>
+              <li><strong>Market Research:</strong> AI analysis of compensation data</li>
+              <li><strong>Value Proposition:</strong> AI helps articulate your unique value</li>
+              <li><strong>Negotiation Scripts:</strong> AI-generated talking points and responses</li>
+              <li><strong>Counter-offer Strategy:</strong> AI analysis of negotiation scenarios</li>
+            </ul>
+
+            <div style="background: #fef3c7; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>🎯 Pro Tips for AI Job Search</h4>
+              <ul>
+                <li>Always personalize AI-generated content before sending</li>
+                <li>Use AI for research and drafting, but add your authentic voice</li>
+                <li>Verify all AI-generated facts and figures</li>
+                <li>Track which AI-enhanced approaches yield the best results</li>
+              </ul>
+            </div>
+          `
+        },
+        {
+          id: 8,
+          title: "Leading AI Initiatives at Work",
+          duration: "35 min",
+          type: "practice" as const,
+          completed: false,
+          content: `
+            <h2>Becoming an AI Champion in Your Organization</h2>
+            <p>Position yourself as a leader by driving AI adoption and innovation within your current role and organization.</p>
+
+            <h3>Identifying AI Opportunities</h3>
+            <p>Look for these common workplace inefficiencies that AI can address:</p>
+            <ul>
+              <li><strong>Repetitive Tasks:</strong> Data entry, report generation, email responses</li>
+              <li><strong>Information Processing:</strong> Document review, research, analysis</li>
+              <li><strong>Decision Support:</strong> Forecasting, risk assessment, optimization</li>
+              <li><strong>Customer Service:</strong> FAQ responses, ticket routing, sentiment analysis</li>
+            </ul>
+
+            <h3>Building Your AI Initiative Proposal</h3>
+            <div style="background: #f0fdf4; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>Proposal Framework:</h4>
+              <ol>
+                <li><strong>Problem Statement:</strong> Clearly define the current pain point</li>
+                <li><strong>AI Solution:</strong> Specific AI approach and tools</li>
+                <li><strong>Expected Benefits:</strong> Quantified time savings, cost reduction, or revenue impact</li>
+                <li><strong>Implementation Plan:</strong> Timeline, resources, and milestones</li>
+                <li><strong>Risk Mitigation:</strong> Address potential concerns and challenges</li>
+                <li><strong>Success Metrics:</strong> How you'll measure and report results</li>
+              </ol>
+            </div>
+
+            <h3>Pilot Project Strategy</h3>
+            <p>Start small and build credibility:</p>
+            <ol>
+              <li><strong>Choose Low-Risk, High-Impact Projects</strong>
+                 <ul>
+                   <li>Focus on your own work first</li>
+                   <li>Select tasks with clear, measurable outcomes</li>
+                   <li>Avoid mission-critical processes initially</li>
+                 </ul>
+              </li>
+              <li><strong>Document Everything</strong>
+                 <ul>
+                   <li>Before/after comparisons</li>
+                   <li>Time savings and quality improvements</li>
+                   <li>Challenges encountered and solutions</li>
+                 </ul>
+              </li>
+              <li><strong>Share Results Strategically</strong>
+                 <ul>
+                   <li>Create compelling case studies</li>
+                   <li>Present to key stakeholders</li>
+                   <li>Offer to help colleagues implement similar solutions</li>
+                 </ul>
+              </li>
+            </ol>
+
+            <h3>Change Management for AI Adoption</h3>
+            <p>Address common resistance to AI implementation:</p>
+            
+            <h4>Common Concerns & Responses:</h4>
+            <ul>
+              <li><strong>"AI will replace jobs"</strong> → Show how AI augments rather than replaces human work</li>
+              <li><strong>"It's too complex"</strong> → Start with user-friendly tools and provide training</li>
+              <li><strong>"We can't trust AI"</strong> → Demonstrate transparency and human oversight</li>
+              <li><strong>"It's too expensive"</strong> → Present clear ROI calculations and start with free/low-cost tools</li>
+            </ul>
+
+            <h3>Building AI Literacy in Your Team</h3>
+            <p>Become the go-to person for AI knowledge:</p>
+            <ul>
+              <li><strong>Lunch & Learn Sessions:</strong> Regular AI education for colleagues</li>
+              <li><strong>Tool Demonstrations:</strong> Show practical AI applications</li>
+              <li><strong>Best Practice Sharing:</strong> Create guides and templates</li>
+              <li><strong>Mentoring:</strong> Help others develop AI skills</li>
+            </ul>
+
+            <h3>Measuring Leadership Impact</h3>
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <p><strong>Track your AI leadership success:</strong></p>
+              <ul>
+                <li><strong>Adoption Metrics:</strong> Number of colleagues using AI tools you recommended</li>
+                <li><strong>Efficiency Gains:</strong> Cumulative time/cost savings across your initiatives</li>
+                <li><strong>Recognition:</strong> Internal awards, speaking opportunities, promotion discussions</li>
+                <li><strong>Network Growth:</strong> Connections made through AI leadership activities</li>
+              </ul>
+            </div>
+          `
+        },
+        {
+          id: 9,
+          title: "Future-Proofing Your Career",
+          duration: "28 min",
+          type: "quiz" as const,
+          completed: false,
+          content: `
+            <h2>Staying Ahead in the AI-Driven Future</h2>
+            <p>Develop a long-term strategy to remain valuable and relevant as AI continues to evolve.</p>
+
+            <h3>Skills That Will Remain Valuable</h3>
+            <ul>
+              <li><strong>Creative Problem Solving:</strong> Finding novel solutions to complex challenges</li>
+              <li><strong>Emotional Intelligence:</strong> Understanding and managing human relationships</li>
+              <li><strong>Strategic Thinking:</strong> Long-term planning and vision setting</li>
+              <li><strong>Cross-functional Collaboration:</strong> Working effectively across disciplines</li>
+              <li><strong>Ethical Reasoning:</strong> Making principled decisions in ambiguous situations</li>
+            </ul>
+
+            <h3>Emerging Career Paths</h3>
+            <div style="background: #f0fdf4; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>New Roles Created by AI:</h4>
+              <ul>
+                <li><strong>AI Prompt Engineer:</strong> Designing effective AI interactions</li>
+                <li><strong>AI Ethics Officer:</strong> Ensuring responsible AI deployment</li>
+                <li><strong>Human-AI Interaction Designer:</strong> Creating seamless AI experiences</li>
+                <li><strong>AI Training Data Specialist:</strong> Curating and managing AI datasets</li>
+                <li><strong>AI Business Strategist:</strong> Identifying AI opportunities for organizations</li>
+              </ul>
+            </div>
+
+            <h3>Continuous Learning Framework</h3>
+            <ol>
+              <li><strong>Stay Current (Weekly):</strong> Follow AI news, try new tools, read research</li>
+              <li><strong>Skill Development (Monthly):</strong> Take courses, attend workshops, practice new techniques</li>
+              <li><strong>Network Building (Quarterly):</strong> Attend conferences, join communities, find mentors</li>
+              <li><strong>Career Planning (Annually):</strong> Reassess goals, update skills roadmap, explore new opportunities</li>
+            </ol>
+
+            <h3>Future-Proofing Quiz</h3>
+            <div style="background: #fef3c7; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <p><strong>Test your future readiness:</strong></p>
+              <ol>
+                <li>Which skill is most important for AI-era professionals?
+                   <br><em>a) Technical coding b) Creative problem-solving c) Data analysis d) Project management</em></li>
+                <li>How often should you update your AI skills?
+                   <br><em>a) Annually b) Quarterly c) Monthly d) Continuously</em></li>
+                <li>What's the best way to stay relevant as AI advances?
+                   <br><em>a) Specialize deeply b) Focus on human-only skills c) Combine AI with domain expertise d) Avoid AI entirely</em></li>
+                <li>Which career strategy is most future-proof?
+                   <br><em>a) Compete with AI b) Ignore AI c) Collaborate with AI d) Replace AI</em></li>
+              </ol>
+              <p><small><strong>Answers:</strong> 1-b (creativity remains uniquely human), 2-d (AI evolves rapidly), 3-c (hybrid expertise is most valuable), 4-c (collaboration beats competition)</small></p>
+            </div>
+
+            <h3>Building Your Personal AI Strategy</h3>
+            <p>Create a 5-year plan for AI-enhanced career growth:</p>
+            <ul>
+              <li><strong>Year 1:</strong> Master current AI tools in your field</li>
+              <li><strong>Year 2:</strong> Lead AI initiatives in your organization</li>
+              <li><strong>Year 3:</strong> Develop specialized AI expertise</li>
+              <li><strong>Year 4:</strong> Mentor others and build thought leadership</li>
+              <li><strong>Year 5:</strong> Explore new AI-enabled career opportunities</li>
+            </ul>
+
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>🚀 Your Next Steps</h4>
+              <ol>
+                <li>Identify 3 AI tools to master in the next 30 days</li>
+                <li>Find 1 AI initiative to propose at work</li>
+                <li>Join 2 AI professional communities</li>
+                <li>Schedule monthly AI learning time in your calendar</li>
+                <li>Create a personal AI portfolio to showcase your progress</li>
+              </ol>
+            </div>
+          `
+        }
+      ]
+    }
+  ]
+
+  return (
+    <CourseLayout
+      courseTitle="AI for Career Advancement"
+      courseDescription="Master AI tools and strategies to accelerate your professional growth and future-proof your career"
+      duration="6 hours"
+      level="Beginner to Intermediate"
+      modules={modules}
+      color="from-green-600 to-teal-600"
+    />
+  )
+}
+
+export default AICareerCourse

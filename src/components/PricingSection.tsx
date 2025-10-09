@@ -135,6 +135,7 @@ const PricingSection = () => {
               </ul>
 
               <button
+                onClick={() => window.location.href = '/quiz'}
                 className={`w-full py-3 px-6 rounded-lg font-semibold transition-colors ${
                   plan.popular
                     ? 'bg-blue-600 text-white hover:bg-blue-700'

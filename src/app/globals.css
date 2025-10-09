@@ -39,3 +39,32 @@ body {
 .hero-gradient {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
 }
+
+/* Force all text in lesson content to be black */
+.prose * {
+  color: black !important;
+}
+
+.prose h1, .prose h2, .prose h3, .prose h4, .prose h5, .prose h6 {
+  color: black !important;
+}
+
+.prose p {
+  color: black !important;
+}
+
+.prose li {
+  color: black !important;
+}
+
+.prose strong {
+  color: black !important;
+}
+
+.prose ul, .prose ol {
+  color: black !important;
+}
+
+.prose div {
+  color: black !important;
+}

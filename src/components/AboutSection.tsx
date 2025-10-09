@@ -9,7 +9,7 @@ const AboutSection = () => {
         {/* Section header */}
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            About Coursiv
+            About AI Masters
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Empowering millions to master AI and transform their careers through practical, accessible education
@@ -24,7 +24,7 @@ const AboutSection = () => {
               Our Mission
             </h3>
             <p className="text-lg text-gray-600 mb-6 leading-relaxed">
-              At Coursiv, we believe that artificial intelligence shouldn't be reserved for tech experts. 
+              At AI Masters, we believe that artificial intelligence shouldn't be reserved for tech experts. 
               Our mission is to democratize AI education and make it accessible to everyone, regardless of 
               their background or experience level.
             </p>
@@ -45,7 +45,7 @@ const AboutSection = () => {
 
           {/* Right content - Stats */}
           <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-8">
-            <h4 className="text-xl font-bold text-gray-900 mb-6">Why Choose Coursiv?</h4>
+            <h4 className="text-xl font-bold text-gray-900 mb-6">Why Choose AI Masters?</h4>
             <div className="space-y-4">
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-blue-600 rounded-lg flex items-center justify-center mr-4">
@@ -109,11 +109,11 @@ const AboutSection = () => {
           </div>
         </div>
 
-        {/* How Coursiv works */}
+        {/* How AI Masters works */}
         <div>
           <div className="text-center mb-16">
             <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-              How Coursiv works
+              How AI Masters works
             </h3>
             <p className="text-xl text-gray-600">
               Learn at your own pace and discover how AI and digital tools can help you grow

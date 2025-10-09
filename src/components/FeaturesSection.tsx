@@ -52,7 +52,7 @@ const FeaturesSection = () => {
             {/* Section header */}
             <div className="mb-10">
               <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6 leading-tight">
-                Why people love Coursiv
+                Why people love AI Masters
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Thousands of users trust Coursiv to learn AI. Get the tools, skills, and confidence to grow in your career.
@@ -100,12 +100,15 @@ const FeaturesSection = () => {
             {/* Left content */}
             <div className="text-left">
               <h3 className="text-2xl md:text-3xl font-bold text-gray-900 mb-4">
-                Increase your income potential with Coursiv
+                Increase your income potential with AI Masters
               </h3>
               <p className="text-lg md:text-xl text-gray-600 mb-8 leading-relaxed">
                 Learn new digital skills and AI tools to improve your work and boost your income
               </p>
-              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg">
+              <button 
+                onClick={() => window.location.href = '/quiz'}
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg"
+              >
                 Start Now
               </button>
             </div>
