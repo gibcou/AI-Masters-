@@ -60,7 +60,7 @@ const Header = () => {
             {user ? (
               <div className="flex items-center space-x-4">
                 <span className="text-gray-700">
-                  Welcome, {user.displayName || user.email}
+                  Welcome, {user.displayName || user.email?.split("@")[0]}
                 </span>
                 <button 
                   onClick={handleLogout} 
@@ -105,7 +105,7 @@ const Header = () => {
                 {user ? (
                   <div className="flex flex-col space-y-2">
                     <span className="text-gray-700 text-sm">
-                      Welcome, {user.displayName || user.email}
+                      Welcome, {user.displayName || user.email?.split("@")[0]}
                     </span>
                     <button 
                       onClick={handleLogout} 
