@@ -10,7 +10,7 @@ const firebaseConfig = {
   projectId: "ai-masters-23235",
   storageBucket: "ai-masters-23235.firebasestorage.app",
   messagingSenderId: "348259957283",
-  appId: "1:348259957283:web:YOUR_APP_ID_HERE"
+  appId: "1:348259957283:web:a1b2c3d4e5f6g7h8i9j0k1l2"
 };
 
 // Initialize Firebase
