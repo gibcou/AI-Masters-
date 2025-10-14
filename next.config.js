@@ -5,8 +5,6 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  basePath: process.env.NODE_ENV === 'production' ? '/AI-Masters-' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/AI-Masters-' : ''
 }
 
 module.exports = nextConfig
