@@ -1,7 +1,7 @@
-import AIQuizPage from '@/components/AIQuizPage'
+import AIQuizPageStatic from '@/components/AIQuizPageStatic'
 
 export default function QuizPage() {
-  return <AIQuizPage />
+  return <AIQuizPageStatic />
 }
 
 export const metadata = {
