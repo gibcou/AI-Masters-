@@ -17,16 +17,10 @@ const Footer = () => {
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
                 Learn today, take control of your future, and grow your income with new digital skills and AI
               </p>
-              <a 
-                href="https://gibcou.github.io/AI-Masters-/quiz/" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="inline-block bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700 transition-colors font-semibold"
+              <button 
+                onClick={() => window.location.href = '/quiz'}
+                className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg"
               >
-                Get Started Now
-              </a>
-            </div>
-
             {/* Right image */}
             <div className="flex justify-center lg:justify-end">
               <div className="relative">
@@ -51,7 +45,8 @@ const Footer = () => {
                 AI Masters
               </div>
               <p className="text-gray-400 mb-6 max-w-md">
-                Master the future with AI. Learn cutting-edge artificial intelligence skills through our comprehensive courses and hands-on projects.
+                Master AI skills to increase your income and improve your life. 
+                Join over 1,184,150+ learners already transforming their careers.
               </p>
               <div className="flex space-x-4">
                 <a href="#" className="text-gray-400 hover:text-white transition-colors">

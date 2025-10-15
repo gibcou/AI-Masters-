@@ -76,7 +76,6 @@ const Header = () => {
               </button>
             )}
             <button onClick={handleGetStarted} className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
-              Get Started
             </button>
           </div>
 
@@ -121,7 +120,6 @@ const Header = () => {
                   </button>
                 )}
                 <button onClick={handleGetStarted} className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors">
-                  Get Started
                 </button>
               </div>
             </div>

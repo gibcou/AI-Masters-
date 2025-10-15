@@ -18,7 +18,6 @@ const PricingSection = () => {
         "Mobile app access"
       ],
       popular: false,
-      cta: "Get Started Free"
     },
     {
       name: "Pro",

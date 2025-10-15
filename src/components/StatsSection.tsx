@@ -74,8 +74,7 @@ const StatsSection = () => {
                 It's proof of the valuable skills you've gained to tackle challenges, achieve your goals, 
                 and move forward in your career or personal projects.
               </p>
-              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors">
-                Get Certificate Today
+              <button className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors" onClick={() => window.open("https://gibcou.github.io/AI-Masters-/quiz/", "_blank")}>Get Certificate Today
               </button>
             </div>
             

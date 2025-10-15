@@ -108,6 +108,7 @@ const PathsSection = () => {
                 key={currentIndex + index} 
                 className="bg-white rounded-2xl p-8 shadow-sm hover:shadow-lg transition-shadow cursor-pointer group"
               >
+            Start Your AI Journey
                 <div className="flex flex-col items-center text-center">
                   {/* Icon */}
                   <div className="mb-6 group-hover:scale-110 transition-transform">
@@ -134,6 +135,7 @@ const PathsSection = () => {
             className="absolute left-0 top-1/2 transform -translate-y-1/2 -translate-x-4 p-3 rounded-full bg-white shadow-lg hover:shadow-xl transition-all disabled:opacity-50 z-10"
             disabled={currentIndex === 0}
           >
+            Start Your AI Journey
             <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
             </svg>
@@ -144,6 +146,7 @@ const PathsSection = () => {
             className="absolute right-0 top-1/2 transform -translate-y-1/2 translate-x-4 p-3 rounded-full bg-white shadow-lg hover:shadow-xl transition-all disabled:opacity-50 z-10"
             disabled={currentIndex + 3 >= paths.length}
           >
+            Start Your AI Journey
             <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
@@ -153,7 +156,7 @@ const PathsSection = () => {
         {/* CTA section */}
         <div className="text-center mt-16">
           <button 
-            onClick={() => window.location.href = '/quiz'}
+            onClick={() => window.open('https://gibcou.github.io/AI-Masters-/quiz/', '_blank')}
             className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors shadow-lg"
           >
             Start Your AI Journey

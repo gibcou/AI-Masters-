@@ -5,7 +5,7 @@ import React from 'react'
 const HeroSection = () => {
   const handleStartLearning = () => {
     // Redirect to quiz page for course recommendation
-    window.location.href = '/quiz'
+    window.open('https://gibcou.github.io/AI-Masters-/quiz/', '_blank')
   }
 
   const profileImages = [
@@ -35,7 +35,7 @@ const HeroSection = () => {
               onClick={handleStartLearning}
               className="bg-blue-600 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-blue-700 transition-colors mb-8"
             >
-              Start Now →
+              Start Now
             </button>
             
             {/* Profile images and count */}
