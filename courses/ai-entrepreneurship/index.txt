@@ -1,0 +1,378 @@
+2:I[5409,["371","static/chunks/371-0d0e6c85aea3c3f2.js","583","static/chunks/app/courses/ai-entrepreneurship/page-3bc43193da21edd7.js"],""]
+c:I[5613,[],""]
+d:I[1778,[],""]
+3:T5b1,
+            <h2>Welcome to AI Entrepreneurship</h2>
+            <p>Artificial Intelligence is revolutionizing how businesses operate, compete, and create value. In this lesson, you'll discover:</p>
+            <ul>
+              <li><strong>What AI means for entrepreneurs</strong> - Understanding the landscape of AI-powered business opportunities</li>
+              <li><strong>Current market trends</strong> - $15.7 trillion projected AI contribution to global economy by 2030</li>
+              <li><strong>Success stories</strong> - How companies like OpenAI, Midjourney, and Jasper built billion-dollar AI businesses</li>
+            </ul>
+            
+            <h3>Key Takeaways</h3>
+            <p>AI isn't just a technology—it's a business transformation tool that can:</p>
+            <ul>
+              <li>Automate repetitive tasks and reduce operational costs</li>
+              <li>Enhance customer experiences through personalization</li>
+              <li>Create entirely new products and services</li>
+              <li>Provide competitive advantages through data-driven insights</li>
+            </ul>
+
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>💡 Pro Tip</h4>
+              <p>The most successful AI entrepreneurs don't just use AI—they solve real problems with AI. Focus on the problem first, then find the AI solution.</p>
+            </div>
+          4:T749,
+            <h2>Identifying AI Business Opportunities</h2>
+            <p>The AI market is vast and growing rapidly. Here's how to identify and evaluate opportunities:</p>
+            
+            <h3>Market Segments with High AI Potential</h3>
+            <ul>
+              <li><strong>Healthcare</strong> - Diagnostic tools, drug discovery, personalized medicine</li>
+              <li><strong>Finance</strong> - Fraud detection, algorithmic trading, risk assessment</li>
+              <li><strong>Retail</strong> - Recommendation engines, inventory optimization, customer service</li>
+              <li><strong>Manufacturing</strong> - Predictive maintenance, quality control, supply chain optimization</li>
+              <li><strong>Education</strong> - Personalized learning, automated grading, content creation</li>
+            </ul>
+
+            <h3>Opportunity Evaluation Framework</h3>
+            <ol>
+              <li><strong>Problem Size</strong> - Is this a significant pain point for many people/businesses?</li>
+              <li><strong>AI Suitability</strong> - Can AI provide a meaningfully better solution than existing approaches?</li>
+              <li><strong>Data Availability</strong> - Is there sufficient data to train and improve AI models?</li>
+              <li><strong>Market Readiness</strong> - Are customers ready to adopt AI solutions?</li>
+              <li><strong>Competitive Landscape</strong> - What's the competition like, and how can you differentiate?</li>
+            </ol>
+
+            <div style="background: #fef3c7; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>⚠️ Common Pitfall</h4>
+              <p>Don't fall into the "solution looking for a problem" trap. Many AI startups fail because they build impressive technology without a clear market need.</p>
+            </div>
+          5:T8c1,
+            <h2>AI Business Model Canvas</h2>
+            <p>Let's design your AI business model using a structured approach:</p>
+
+            <h3>Revenue Models for AI Businesses</h3>
+            <ul>
+              <li><strong>SaaS (Software as a Service)</strong> - Monthly/annual subscriptions for AI tools</li>
+              <li><strong>API-based</strong> - Pay-per-use or tiered pricing for AI capabilities</li>
+              <li><strong>Marketplace</strong> - Commission on AI-powered transactions</li>
+              <li><strong>Consulting + AI</strong> - High-value services enhanced by AI</li>
+              <li><strong>Data Monetization</strong> - Selling insights derived from AI analysis</li>
+            </ul>
+
+            <h3>Practice Exercise: Your Business Model</h3>
+            <div style="background: #f0fdf4; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <p><strong>Complete this business model canvas for your AI venture:</strong></p>
+              <ol>
+                <li><strong>Value Proposition:</strong> What unique value does your AI solution provide?</li>
+                <li><strong>Target Customer:</strong> Who specifically will pay for this solution?</li>
+                <li><strong>Revenue Streams:</strong> How will you make money?</li>
+                <li><strong>Key Resources:</strong> What AI capabilities, data, and talent do you need?</li>
+                <li><strong>Cost Structure:</strong> What are your main expenses (compute, talent, data)?</li>
+                <li><strong>Competitive Advantage:</strong> What makes your solution defensible?</li>
+              </ol>
+            </div>
+
+            <h3>Pricing Strategies</h3>
+            <p>AI businesses often use these pricing approaches:</p>
+            <ul>
+              <li><strong>Freemium</strong> - Free tier to drive adoption, premium features for revenue</li>
+              <li><strong>Usage-based</strong> - Price scales with API calls, processing volume, or outcomes</li>
+              <li><strong>Value-based</strong> - Price based on the value/savings your AI delivers</li>
+              <li><strong>Tiered</strong> - Different feature sets for different customer segments</li>
+            </ul>
+          6:T969,
+            <h2>Building Your AI MVP</h2>
+            <p>Creating a Minimum Viable Product (MVP) for AI requires a different approach than traditional software:</p>
+
+            <h3>AI MVP Strategy</h3>
+            <ul>
+              <li><strong>Start with the simplest AI that works</strong> - Don't over-engineer from day one</li>
+              <li><strong>Focus on the user experience</strong> - AI should be invisible to users</li>
+              <li><strong>Plan for iteration</strong> - AI models improve with more data and feedback</li>
+              <li><strong>Have a non-AI fallback</strong> - What happens when AI fails?</li>
+            </ul>
+
+            <h3>Development Approaches</h3>
+            <ol>
+              <li><strong>No-Code/Low-Code</strong> - Use platforms like Bubble, Zapier, or Airtable with AI integrations</li>
+              <li><strong>API Integration</strong> - Leverage existing AI services (OpenAI, Google Cloud AI, AWS)</li>
+              <li><strong>Custom Development</strong> - Build your own models when you need specific capabilities</li>
+            </ol>
+
+            <h3>Technical Stack Considerations</h3>
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>Recommended Tech Stack for AI Startups:</h4>
+              <ul>
+                <li><strong>Frontend:</strong> React/Next.js for web, React Native/Flutter for mobile</li>
+                <li><strong>Backend:</strong> Python (FastAPI/Django) or Node.js</li>
+                <li><strong>AI/ML:</strong> OpenAI API, Hugging Face, or custom models with PyTorch/TensorFlow</li>
+                <li><strong>Database:</strong> PostgreSQL for structured data, Vector databases for embeddings</li>
+                <li><strong>Infrastructure:</strong> Vercel/Netlify for frontend, AWS/GCP for backend</li>
+              </ul>
+            </div>
+
+            <h3>Testing Your AI MVP</h3>
+            <p>Key metrics to track:</p>
+            <ul>
+              <li><strong>Accuracy</strong> - How often does your AI get it right?</li>
+              <li><strong>User Satisfaction</strong> - Are users happy with AI-generated results?</li>
+              <li><strong>Engagement</strong> - Do users return and use the AI features?</li>
+              <li><strong>Performance</strong> - Response times and system reliability</li>
+            </ul>
+          7:Ta48,
+            <h2>Building Your Data Foundation</h2>
+            <p>Data is the fuel of AI businesses. Here's how to build a robust data strategy:</p>
+
+            <h3>Types of Data for AI Businesses</h3>
+            <ul>
+              <li><strong>Training Data</strong> - Historical data used to train your AI models</li>
+              <li><strong>Real-time Data</strong> - Live data streams for immediate AI processing</li>
+              <li><strong>Feedback Data</strong> - User interactions that help improve your models</li>
+              <li><strong>External Data</strong> - Third-party data sources that enhance your AI</li>
+            </ul>
+
+            <h3>Data Collection Strategies</h3>
+            <ol>
+              <li><strong>User-Generated Content</strong> - Encourage users to provide data through your product</li>
+              <li><strong>Web Scraping</strong> - Collect publicly available data (follow legal guidelines)</li>
+              <li><strong>Partnerships</strong> - Collaborate with other companies for data sharing</li>
+              <li><strong>Synthetic Data</strong> - Generate artificial data when real data is scarce</li>
+              <li><strong>Data Purchases</strong> - Buy datasets from specialized providers</li>
+            </ol>
+
+            <h3>Data Quality Framework</h3>
+            <div style="background: #fef3c7; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>The 6 Dimensions of Data Quality:</h4>
+              <ol>
+                <li><strong>Accuracy</strong> - Is the data correct and error-free?</li>
+                <li><strong>Completeness</strong> - Are there missing values or gaps?</li>
+                <li><strong>Consistency</strong> - Is the data uniform across sources?</li>
+                <li><strong>Timeliness</strong> - Is the data current and up-to-date?</li>
+                <li><strong>Validity</strong> - Does the data conform to defined formats?</li>
+                <li><strong>Uniqueness</strong> - Are there duplicate records?</li>
+              </ol>
+            </div>
+
+            <h3>Privacy & Compliance</h3>
+            <p>Essential considerations for AI data handling:</p>
+            <ul>
+              <li><strong>GDPR Compliance</strong> - Right to deletion, data portability, consent</li>
+              <li><strong>Data Anonymization</strong> - Remove personally identifiable information</li>
+              <li><strong>Consent Management</strong> - Clear opt-in/opt-out mechanisms</li>
+              <li><strong>Data Governance</strong> - Policies for data access, usage, and retention</li>
+            </ul>
+          8:T87b,
+            <h2>Validating Your AI Product</h2>
+            <p>Testing AI products requires unique approaches beyond traditional software testing:</p>
+
+            <h3>AI-Specific Testing Methods</h3>
+            <ul>
+              <li><strong>A/B Testing</strong> - Compare AI vs. non-AI solutions or different AI approaches</li>
+              <li><strong>Shadow Testing</strong> - Run AI in parallel with existing systems</li>
+              <li><strong>Gradual Rollout</strong> - Start with a small user segment and expand</li>
+              <li><strong>Human-in-the-Loop</strong> - Combine AI predictions with human oversight</li>
+            </ul>
+
+            <h3>Validation Quiz</h3>
+            <div style="background: #f0fdf4; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <p><strong>Test your understanding:</strong></p>
+              <ol>
+                <li>What's the most important metric for an AI recommendation system?
+                   <br><em>a) Speed b) Accuracy c) User engagement d) Cost per prediction</em></li>
+                <li>When should you use synthetic data for training?
+                   <br><em>a) Always b) Never c) When real data is scarce or sensitive d) Only for testing</em></li>
+                <li>What's the biggest risk of over-optimizing AI models?
+                   <br><em>a) High costs b) Slow performance c) Overfitting d) User confusion</em></li>
+              </ol>
+              <p><small><strong>Answers:</strong> 1-c (engagement matters most), 2-c (when real data isn't available), 3-c (overfitting reduces generalization)</small></p>
+            </div>
+
+            <h3>Success Metrics for AI Products</h3>
+            <p>Track these key performance indicators:</p>
+            <ul>
+              <li><strong>Business Metrics</strong> - Revenue, user growth, retention</li>
+              <li><strong>AI Performance</strong> - Accuracy, precision, recall, F1 score</li>
+              <li><strong>User Experience</strong> - Task completion rate, user satisfaction</li>
+              <li><strong>Operational</strong> - Response time, uptime, cost per prediction</li>
+            </ul>
+          9:Ta95,
+            <h2>Scaling Your AI Infrastructure</h2>
+            <p>As your AI business grows, you'll need to scale your infrastructure efficiently:</p>
+
+            <h3>Infrastructure Scaling Challenges</h3>
+            <ul>
+              <li><strong>Compute Costs</strong> - AI inference can be expensive at scale</li>
+              <li><strong>Latency Requirements</strong> - Users expect fast AI responses</li>
+              <li><strong>Model Updates</strong> - Deploying new AI models without downtime</li>
+              <li><strong>Data Pipeline</strong> - Processing increasing volumes of data</li>
+            </ul>
+
+            <h3>Scaling Strategies</h3>
+            <ol>
+              <li><strong>Model Optimization</strong>
+                 <ul>
+                   <li>Model compression and quantization</li>
+                   <li>Edge deployment for faster inference</li>
+                   <li>Caching frequent predictions</li>
+                 </ul>
+              </li>
+              <li><strong>Infrastructure Automation</strong>
+                 <ul>
+                   <li>Auto-scaling based on demand</li>
+                   <li>Load balancing across multiple instances</li>
+                   <li>Containerization with Docker/Kubernetes</li>
+                 </ul>
+              </li>
+              <li><strong>Cost Optimization</strong>
+                 <ul>
+                   <li>Spot instances for training workloads</li>
+                   <li>Reserved instances for predictable usage</li>
+                   <li>Multi-cloud strategies for best pricing</li>
+                 </ul>
+              </li>
+            </ol>
+
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>💰 Cost Management Tips</h4>
+              <ul>
+                <li>Monitor your AI inference costs daily</li>
+                <li>Implement request rate limiting to prevent abuse</li>
+                <li>Use smaller models for simple tasks</li>
+                <li>Cache results for repeated queries</li>
+                <li>Consider fine-tuning smaller models instead of using large general models</li>
+              </ul>
+            </div>
+
+            <h3>Monitoring & Observability</h3>
+            <p>Essential monitoring for AI systems:</p>
+            <ul>
+              <li><strong>Model Performance</strong> - Track accuracy drift over time</li>
+              <li><strong>System Health</strong> - CPU, memory, GPU utilization</li>
+              <li><strong>Business Metrics</strong> - Revenue impact of AI features</li>
+              <li><strong>User Experience</strong> - Response times, error rates</li>
+            </ul>
+          a:Tcd9,
+            <h2>Raising Capital for Your AI Venture</h2>
+            <p>AI startups have unique advantages and challenges when fundraising:</p>
+
+            <h3>AI Startup Advantages</h3>
+            <ul>
+              <li><strong>High Growth Potential</strong> - AI can scale without proportional cost increases</li>
+              <li><strong>Investor Interest</strong> - AI is a hot sector with significant VC attention</li>
+              <li><strong>Defensibility</strong> - Data moats and network effects</li>
+              <li><strong>Market Size</strong> - Large addressable markets in most AI applications</li>
+            </ul>
+
+            <h3>Common Investor Concerns</h3>
+            <ul>
+              <li><strong>Technical Risk</strong> - Will the AI actually work at scale?</li>
+              <li><strong>Data Dependency</strong> - How will you get enough quality data?</li>
+              <li><strong>Competition</strong> - What prevents big tech from copying you?</li>
+              <li><strong>Regulation</strong> - How will AI regulations affect your business?</li>
+            </ul>
+
+            <h3>Fundraising Stages</h3>
+            <div style="background: #fef3c7; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>Typical AI Startup Funding Journey:</h4>
+              <ul>
+                <li><strong>Pre-Seed ($100K-$500K)</strong> - Prove the AI concept works</li>
+                <li><strong>Seed ($500K-$2M)</strong> - Build MVP and get initial customers</li>
+                <li><strong>Series A ($2M-$10M)</strong> - Scale product and team</li>
+                <li><strong>Series B+ ($10M+)</strong> - Market expansion and growth</li>
+              </ul>
+            </div>
+
+            <h3>Pitch Deck Essentials for AI Startups</h3>
+            <ol>
+              <li><strong>Problem & Solution</strong> - Clear problem that AI uniquely solves</li>
+              <li><strong>Market Opportunity</strong> - Size and growth of your target market</li>
+              <li><strong>AI Advantage</strong> - Why AI is better than existing solutions</li>
+              <li><strong>Traction</strong> - Users, revenue, partnerships, or pilot programs</li>
+              <li><strong>Technology</strong> - High-level overview of your AI approach</li>
+              <li><strong>Business Model</strong> - How you make money and unit economics</li>
+              <li><strong>Competition</strong> - Competitive landscape and differentiation</li>
+              <li><strong>Team</strong> - AI expertise and domain knowledge</li>
+              <li><strong>Financials</strong> - Revenue projections and funding needs</li>
+              <li><strong>Use of Funds</strong> - How you'll spend the investment</li>
+            </ol>
+
+            <h3>Due Diligence Preparation</h3>
+            <p>Investors will want to see:</p>
+            <ul>
+              <li><strong>Technical Documentation</strong> - Model architecture, performance metrics</li>
+              <li><strong>Data Strategy</strong> - Data sources, quality, and compliance</li>
+              <li><strong>IP Portfolio</strong> - Patents, trade secrets, proprietary datasets</li>
+              <li><strong>Customer References</strong> - Testimonials and case studies</li>
+            </ul>
+          b:Td62,
+            <h2>Assembling Your AI Dream Team</h2>
+            <p>Building a successful AI company requires the right mix of technical and business talent:</p>
+
+            <h3>Essential AI Team Roles</h3>
+            <ul>
+              <li><strong>AI/ML Engineers</strong> - Build and deploy AI models</li>
+              <li><strong>Data Scientists</strong> - Analyze data and develop insights</li>
+              <li><strong>Data Engineers</strong> - Build data pipelines and infrastructure</li>
+              <li><strong>Product Managers</strong> - Define AI product requirements</li>
+              <li><strong>Software Engineers</strong> - Build the application around AI</li>
+              <li><strong>DevOps Engineers</strong> - Manage AI infrastructure and deployment</li>
+            </ul>
+
+            <h3>Hiring Strategy by Stage</h3>
+            <div style="background: #f0fdf4; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <h4>Early Stage (0-10 employees):</h4>
+              <ul>
+                <li>Hire full-stack AI engineers who can wear multiple hats</li>
+                <li>Focus on generalists rather than specialists</li>
+                <li>Consider co-founders with complementary AI/business skills</li>
+              </ul>
+              
+              <h4>Growth Stage (10-50 employees):</h4>
+              <ul>
+                <li>Add specialized roles (data scientists, ML engineers)</li>
+                <li>Hire experienced product managers for AI products</li>
+                <li>Build dedicated data engineering capabilities</li>
+              </ul>
+              
+              <h4>Scale Stage (50+ employees):</h4>
+              <ul>
+                <li>Create specialized AI research teams</li>
+                <li>Add AI ethics and safety roles</li>
+                <li>Build platform teams for AI infrastructure</li>
+              </ul>
+            </div>
+
+            <h3>Compensation & Equity</h3>
+            <p>AI talent is expensive and competitive:</p>
+            <ul>
+              <li><strong>Senior AI Engineers:</strong> $150K-$300K+ base salary</li>
+              <li><strong>Data Scientists:</strong> $120K-$250K+ base salary</li>
+              <li><strong>ML Engineers:</strong> $140K-$280K+ base salary</li>
+              <li><strong>Equity:</strong> 0.1%-2% for senior hires, more for early employees</li>
+            </ul>
+
+            <h3>Team Building Exercise</h3>
+            <div style="background: #f0f9ff; padding: 20px; border-radius: 8px; margin: 20px 0;">
+              <p><strong>Plan your first 5 hires:</strong></p>
+              <ol>
+                <li>What's your current team composition?</li>
+                <li>What are your biggest skill gaps?</li>
+                <li>Which roles are most critical for your next milestone?</li>
+                <li>What's your hiring budget and timeline?</li>
+                <li>How will you compete for top AI talent?</li>
+              </ol>
+            </div>
+
+            <h3>Remote vs. In-Person</h3>
+            <p>Considerations for AI teams:</p>
+            <ul>
+              <li><strong>Remote Advantages:</strong> Access to global talent, lower costs</li>
+              <li><strong>In-Person Advantages:</strong> Better collaboration, faster iteration</li>
+              <li><strong>Hybrid Approach:</strong> Core team co-located, specialists remote</li>
+            </ul>
+          0:["gUXpi3XG_x_DoKQH0v5qG",[[["",{"children":["courses",{"children":["ai-entrepreneurship",{"children":["__PAGE__",{}]}]}]},"$undefined","$undefined",true],["",{"children":["courses",{"children":["ai-entrepreneurship",{"children":["__PAGE__",{},["$L1",["$","$L2",null,{"courseTitle":"AI Entrepreneurship Mastery","courseDescription":"Learn to build, scale, and fund successful AI-powered businesses from ideation to exit","duration":"8 hours","level":"Intermediate","modules":[{"id":1,"title":"AI Business Fundamentals","description":"Understanding AI's role in modern business","completed":false,"lessons":[{"id":1,"title":"Introduction to AI in Business","duration":"15 min","type":"video","completed":false,"videoUrl":"https://www.youtube.com/embed/Sqa8Zo2XWc4","content":"$3"},{"id":2,"title":"AI Market Analysis & Opportunities","duration":"20 min","type":"reading","completed":false,"content":"$4"},{"id":3,"title":"Building Your AI Business Model","duration":"25 min","type":"practice","completed":false,"content":"$5"}]},{"id":2,"title":"AI Product Development","description":"Building and launching AI-powered products","completed":false,"lessons":[{"id":4,"title":"MVP Development for AI Products","duration":"30 min","type":"video","completed":false,"videoUrl":"https://www.youtube.com/embed/g-PThNpJBbQ","content":"$6"},{"id":5,"title":"Data Strategy & Management","duration":"25 min","type":"reading","completed":false,"content":"$7"},{"id":6,"title":"AI Product Testing & Validation","duration":"20 min","type":"quiz","completed":false,"content":"$8"}]},{"id":3,"title":"Scaling & Growth","description":"Growing your AI business sustainably","completed":false,"lessons":[{"id":7,"title":"AI Infrastructure & Scaling","duration":"35 min","type":"video","completed":false,"videoUrl":"https://www.youtube.com/embed/WXuK6gekU1Y","content":"$9"},{"id":8,"title":"Fundraising for AI Startups","duration":"30 min","type":"reading","completed":false,"content":"$a"},{"id":9,"title":"Building an AI Team","duration":"25 min","type":"practice","completed":false,"content":"$b"}]}],"color":"from-blue-600 to-purple-600"}],null]]},["$","$Lc",null,{"parallelRouterKey":"children","segmentPath":["children","courses","children","ai-entrepreneurship","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]]},["$","$Lc",null,{"parallelRouterKey":"children","segmentPath":["children","courses","children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":"$undefined","notFoundStyles":"$undefined","styles":null}]]},[null,["$","html",null,{"lang":"en","children":["$","body",null,{"className":"__className_6cbdbf","children":["$","$Lc",null,{"parallelRouterKey":"children","segmentPath":["children"],"loading":"$undefined","loadingStyles":"$undefined","loadingScripts":"$undefined","hasLoading":false,"error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$Ld",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":"404"}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],"notFoundStyles":[],"styles":null}]}]}],null]],[[["$","link","0",{"rel":"stylesheet","href":"/AI-Masters-/_next/static/css/ab79cff7077554b7.css","precedence":"next","crossOrigin":""}]],"$Le"]]]]
+e:[["$","meta","0",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","1",{"charSet":"utf-8"}],["$","title","2",{"children":"AI Masters - Learn AI for Work, Business, and Side Hustles"}],["$","meta","3",{"name":"description","content":"Learn how AI can increase your income and improve your life. More than 1,184,150+ people joined"}],["$","meta","4",{"name":"next-size-adjust"}]]
+1:null
